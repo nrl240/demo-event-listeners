@@ -1,0 +1,41 @@
+body {
+  background-color: peachpuff;
+  font-size: large;
+}
+
+.main {
+  display: flex;
+  background-color: darkorange;
+}
+
+.children {
+  height: 5em;
+  border: solid .25em black;
+  margin: 1em;
+  background-color: pink;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.list {
+  margin-top: 20em;
+}
+
+#my-list>li {
+  margin-top: 1em;
+  font-size: x-large;
+}
+
+h1 {
+  font-size: medium;
+}
+
+#song-list {
+  border: dashed .5em black;
+  padding: 1em;
+  list-style: none;
+}
+
+.song {
+  padding: .25em 0;
+}
